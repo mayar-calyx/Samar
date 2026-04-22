@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="image_2a8817.jpg" alt="Samar Restaurant Logo" width="600" style="margin-bottom: 10px;"/>
-  
 <p style="font-size: 1.2em; color: #555; font-weight: bold;">منصة ويب متكاملة للمطاعم الفاخرة</p>
 
 <img src="preview-image.jpg" alt="Samar Restaurant Banner" width="100%" style="border-radius: 15px; border: 2px solid #FF5733; margin-top: 10px;"/>
