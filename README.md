@@ -1,2 +1,24 @@
-# Samar
-A complete multi-page web platform for premium restaurants. Features include a dynamic reservation engine, interactive menu displays, and a fully responsive UI built with vanilla JavaScript and modern CSS architectures.
+# 🍽️ مطعم سمر - Samar Restaurant
+
+<p align="center">
+  <b>منصة ويب متكاملة للمطاعم الفاخرة</b>
+</p>
+
+---
+
+### 🌐 عرض الموقع مباشرة
+يمكنك استعراض التصميم وتجربة الموقع حياً من خلال الرابط أدناه:
+
+[![View Live Demo](https://img.shields.io/badge/View_Live_Demo-Click_Here-brightgreen?style=for-the-badge&logo=google-chrome)](https://mayar-calyx.github.io/Samar/Samar/)
+
+---
+
+### 🚀 عن المشروع
+هذا المشروع يمثل واجهة مستخدم (UI) عصرية لمطعم، تم التركيز فيه على تجربة المستخدم (UX) والسرعة في التصفح.
+
+* **تصميم متجاوب:** يعمل على جميع الشاشات.
+* **قائمة طعام تفاعلية:** عرض الوجبات بطريقة جذابة.
+* **نظام حجز:** واجهة مخصصة لاستقبال طلبات الزبائن.
+
+---
+💡 *هذا المشروع مفتوح المصدر (MIT License).*
