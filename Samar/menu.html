@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مطعم سَمَر | قائمة الطعام</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo"><i class="fas fa-utensils"></i> سَمَر</a>
+        <ul class="nav-links">
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="about.html">من نحن</a></li>
+            <li><a href="menu.html" class="active">قائمة الطعام</a></li>
+            <li><a href="reservations.html">الحجوزات</a></li>
+            <li><a href="contact.html">اتصل بنا</a></li>
+        </ul>
+        <div class="hamburger"><span></span><span></span><span></span></div>
+    </nav>
+
+    <section class="section" style="padding-top: 120px; background: var(--white);">
+        <h2 class="section-title">قائمة الطعام</h2>
+        <p class="section-subtitle">اكتشف تشكيلتنا المتنوعة من الأطباق العربية الشهية</p>
+        
+        <div class="menu-tabs">
+            <button class="menu-tab active" data-category="appetizers">المقبلات</button>
+            <button class="menu-tab" data-category="grills">المشاوي</button>
+            <button class="menu-tab" data-category="main">الأطباق الرئيسية</button>
+            <button class="menu-tab" data-category="desserts">الحلويات</button>
+        </div>
+
+        <div class="menu-category active" id="appetizers">
+            <div class="menu-grid">
+                <div class="menu-item"><img src="images/hummus.jpg" alt="حمص"><div class="menu-item-info"><h4>حمص بالطحينة</h4><p>حمص مهروس بالطحينة وزيت الزيتون</p><span class="price">18 ر.س</span></div></div>
+                <div class="menu-item"><img src="images/mutabbal.jpg" alt="متبل"><div class="menu-item-info"><h4>متبل باذنجان</h4><p>باذنجان مشوي مع الطحينة والثوم</p><span class="price">20 ر.س</span></div></div>
+                <div class="menu-item"><img src="images/fattoush.jpg" alt="فتوش"><div class="menu-item-info"><h4>فتوش</h4><p>سلطة طازجة مع الخبز المحمص</p><span class="price">22 ر.س</span></div></div>
+            </div>
+        </div>
+
+        <div class="menu-category" id="grills">
+            <div class="menu-grid">
+                <div class="menu-item"><img src="images/mashawi.jpg" alt="مشاوي مشكلة"><div class="menu-item-info"><h4>مشاوي مشكّلة</h4><p>تشكيلة من الكباب والشيش طاووق</p><span class="price">85 ر.س</span></div></div>
+                <div class="menu-item"><img src="images/kabab.jpg" alt="كباب"><div class="menu-item-info"><h4>كباب لحم</h4><p>لحم غنم مفروم متبل</p><span class="price">55 ر.س</span></div></div>
+                <div class="menu-item"><img src="images/shish-tawook.jpg" alt="شيش طاووق"><div class="menu-item-info"><h4>شيش طاووق</h4><p>صدور دجاج متبلة مشوية</p><span class="price">45 ر.س</span></div></div>
+            </div>
+        </div>
+
+        <div class="menu-category" id="main">
+            <div class="menu-grid">
+                <div class="menu-item"><img src="images/kabsa.jpg" alt="كبسة لحم"><div class="menu-item-info"><h4>كبسة لحم</h4><p>أرز بسمتي مع لحم الضأن</p><span class="price">75 ر.س</span></div></div>
+                <div class="menu-item"><img src="images/mandi.jpg" alt="مندي دجاج"><div class="menu-item-info"><h4>مندي دجاج</h4><p>دجاج مدخن مع الأرز المندي</p><span class="price">65 ر.س</span></div></div>
+                <div class="menu-item"><img src="images/mansaf-menu.jpg" alt="منسف"><div class="menu-item-info"><h4>منسف</h4><p>الطبق الأردني الشهير باللبن الجميد</p><span class="price">95 ر.س</span></div></div>
+            </div>
+        </div>
+
+        <div class="menu-category" id="desserts">
+            <div class="menu-grid">
+                <div class="menu-item"><img src="images/knafeh.jpg" alt="كنافة"><div class="menu-item-info"><h4>كنافة نابلسية</h4><p>كنافة بالجبنة مع القطر</p><span class="price">35 ر.س</span></div></div>
+                <div class="menu-item"><img src="images/baklava.jpg" alt="بقلاوة"><div class="menu-item-info"><h4>بقلاوة مشكّلة</h4><p>تشكيلة بقلاوة بالفستق والجوز</p><span class="price">40 ر.س</span></div></div>
+                <div class="menu-item"><img src="images/om-ali.jpg" alt="أم علي"><div class="menu-item-info"><h4>أم علي</h4><p>حلوى ساخنة بالمكسرات</p><span class="price">30 ر.س</span></div></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>سَمَر</h4>
+                <p>مطعم عربي أصيل يقدم أشهى الأطباق التقليدية في أجواء دافئة.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="انستغرام">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="تويتر">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="فيسبوك">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer" aria-label="واتساب">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h4>روابط سريعة</h4>
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="menu.html">القائمة</a></li>
+                    <li><a href="reservations.html">الحجوزات</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>ساعات العمل</h4>
+                <ul>
+                    <li>السبت - الخميس: 12:00 م - 12:00 ص</li>
+                    <li>الجمعة: 1:00 م - 12:00 ص</li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>تواصل معنا</h4>
+                <ul>
+                    <li><i class="fas fa-phone"></i> </li>
+                    <li><i class="fas fa-envelope"></i></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>  © 2026 CALYX | AI Automation & Web Development - جميع الحقوق محفوظة</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

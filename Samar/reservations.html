@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مطعم سَمَر | الحجوزات</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo"><i class="fas fa-utensils"></i> سَمَر</a>
+        <ul class="nav-links">
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="about.html">من نحن</a></li>
+            <li><a href="menu.html">قائمة الطعام</a></li>
+            <li><a href="reservations.html" class="active">الحجوزات</a></li>
+            <li><a href="contact.html">اتصل بنا</a></li>
+        </ul>
+        <div class="hamburger"><span></span><span></span><span></span></div>
+    </nav>
+
+    <section id="reservations-page" class="section" style="padding-top: 120px; background: linear-gradient(rgba(93, 58, 46, 0.9), rgba(93, 58, 46, 0.9)), url('images/reservation-bg.jpg') center/cover fixed;">
+        <h2 class="section-title" style="color: var(--white);">احجز طاولتك</h2>
+        <p class="section-subtitle" style="color: rgba(255,255,255,0.8);">دعنا نستعد لاستقبالكم بأفضل تجربة ضيافة</p>
+        
+        <form class="reservation-form" id="reservationForm">
+            <div class="form-row">
+                <div class="form-group"><label>الاسم الكامل</label><input type="text" id="name" placeholder="أدخل اسمك الكامل" required><span class="error-message">الرجاء إدخال الاسم</span></div>
+                <div class="form-group"><label>رقم الهاتف</label><input type="tel" id="phone" placeholder="" required><span class="error-message">الرجاء إدخال رقم هاتف صحيح</span></div>
+            </div>
+            <div class="form-group"><label>البريد الإلكتروني</label><input type="email" id="email" placeholder="" required><span class="error-message">الرجاء إدخال بريد إلكتروني صحيح</span></div>
+            <div class="form-row">
+                <div class="form-group"><label>تاريخ الحجز</label><input type="date" id="date" required><span class="error-message">الرجاء اختيار التاريخ</span></div>
+                <div class="form-group"><label>وقت الحجز</label><input type="time" id="time" required><span class="error-message">الرجاء اختيار الوقت</span></div>
+            </div>
+            <div class="form-group"><label>عدد الأشخاص</label><select id="guests" required><option value="">اختر عدد الأشخاص</option><option value="1">شخص واحد</option><option value="2">شخصان</option><option value="3">3 أشخاص</option><option value="4">4 أشخاص</option><option value="5">5 أشخاص</option><option value="6">6 أشخاص</option></select><span class="error-message">الرجاء اختيار عدد الأشخاص</span></div>
+            <button type="submit" class="btn btn-primary">تأكيد الحجز</button>
+            <div class="success-message" id="reservationSuccess"><h3>تم الحجز بنجاح!</h3><p>سنتواصل معك قريباً لتأكيد الحجز.</p></div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>سَمَر</h4>
+                <p>مطعم عربي أصيل يقدم أشهى الأطباق التقليدية في أجواء دافئة.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="انستغرام">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="تويتر">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="فيسبوك">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer" aria-label="واتساب">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h4>روابط سريعة</h4>
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="menu.html">القائمة</a></li>
+                    <li><a href="reservations.html">الحجوزات</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>ساعات العمل</h4>
+                <ul>
+                    <li>السبت - الخميس: 12:00 م - 12:00 ص</li>
+                    <li>الجمعة: 1:00 م - 12:00 ص</li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>تواصل معنا</h4>
+                <ul>
+                    <li><i class="fas fa-phone"></i> </li>
+                    <li><i class="fas fa-envelope"></i></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>  © 2026 CALYX | AI Automation & Web Development - جميع الحقوق محفوظة</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
