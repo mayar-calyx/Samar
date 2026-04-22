@@ -1,6 +1,6 @@
 <div align="center">
 
-# <img src="images/logo.jpg" width="45" style="vertical-align: middle;"> <span style="color: #FF5733;">مطعم سمر</span> - Samar Restaurant
+# <img src="logo.jpg" width="45" style="vertical-align: middle;"> <span style="color: #FF5733;">مطعم سمر</span> - Samar Restaurant
   
 <p style="font-size: 1.2em; color: #555;">منصة ويب متكاملة للمطاعم الفاخرة</p>
 
