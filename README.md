@@ -4,7 +4,7 @@
   
   <p style="font-size: 1.2em; color: #555;">منصة ويب متكاملة للمطاعم الفاخرة</p>
 
-<img src="https://raw.githubusercontent.com/mayar-calyx/Samar/main/preview-image.png" alt="Samar Restaurant Banner" width="100%" style="border-radius: 15px; border: 2px solid #FF5733;"/>
+<img src="preview-image.jpg" alt="Samar Restaurant Banner" width="100%" style="border-radius: 15px; border: 2px solid #FF5733;"/>
 
 <br>
 
